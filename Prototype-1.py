@@ -5,14 +5,15 @@ root.title('GCity Railways')
 root.geometry("1200x700")
 
 # Defining image
-bg = PhotoImage(file=r"C:\Users\91998\Downloads\project_11zon (1).png")
+# bg = PhotoImage(file=r"C:\Users\91998\Downloads\project_11zon (1).png")
 
 # Create a canvas
 Canvas1 = Canvas(root, width=1200, height=700)
 Canvas1.pack(fill="both", expand=True)
 
 # Set image in canvas
-Canvas1.create_image(0,0, image=bg, anchor="nw")
+# Canvas1.create_image(0,0, image=bg, anchor="nw")
+Canvas1.create_image(0,0, anchor="nw")
 
 #Functions
 def CLEAR():
